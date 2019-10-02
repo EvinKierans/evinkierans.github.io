@@ -1,0 +1,130 @@
+body {
+    background: black;
+    position: relative;
+    background-image: url("images/poulshonebeach.jpg");
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    padding:5px;
+    background-color:rgb(185, 132, 132);
+    margin-left: 10%;
+    margin-top: 5%;
+    align-items: "left";
+    height: 68.9vh;
+    width: 38.7vh;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+}
+
+p{
+    font-family: Helvetica;
+    margin-left: 50%;
+    font-size: 20px;
+    text-align: right;
+}
+
+h1 {
+    text-align: left;
+    font-size: 50px;
+    font-family: Helvetica;
+    color: white;
+    letter-spacing: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+h2 {
+    text-align: CENTER;
+    font-family: Helvetica;
+    color: white;
+    letter-spacing: 10px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 16px;
+    font-family: Helvetica;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    margin-right: 25%;
+}
+
+.content_container{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.name_container h1{
+    cursor: default;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    font-size: 6vw;
+}
+
+.name_bold{
+    margin-left: 50%;
+    font-size: 7vw;
+}
+
+.main_nav_container{
+	font-family: 'Moon_Bold';
+	color: inherit;
+	padding-top: 0.8vw;
+	cursor: default;
+	white-space: nowrap;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.main_nav_container a, .main_nav_container span{
+font-size: 1.19vw;
+}
+.main_nav_container a{
+display: block;
+cursor: pointer;
+}
+.main_nav_container a:hover{
+opacity: 0.5;
+}
+a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 16px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: rgb(250, 245, 245);
+}
+
+header {
+    background: rgba(169, 169, 169, 0.75);
+    background-origin: content-box;
+    padding: 5px;
+    text-align: center;
+    font-size: 28px;
+    font-family: Helvetica;
+    color: white;
+    margin-right: 35%;
+    margin-left: 35%;
+}
